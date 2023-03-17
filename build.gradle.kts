@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "io.github.gdpl2112"
-version = "1.0"
+version = "1.1"
 
 repositories {
     maven("https://maven.aliyun.com/repository/public")
@@ -16,9 +16,9 @@ repositories {
 
 dependencies {
     implementation("io.github.Kloping:spt-web:0.2.0") {
-        exclude(group = "io.github.Kloping", module = "SpringTool")
-        exclude(group ="io.github.Kloping", module = "JvUtils")
-        exclude(group ="com.alibaba", module = "fastjson")
-        exclude(group ="org.jsoup", module = "jsoup")
+//        exclude(group = "io.github.Kloping", module = "SpringTool")
+//        exclude(group ="io.github.Kloping", module = "JvUtils")
+//        exclude(group ="com.alibaba", module = "fastjson")
+//        exclude(group ="org.jsoup", module = "jsoup")
     }
 }
